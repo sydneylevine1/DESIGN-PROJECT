@@ -1,0 +1,125 @@
+*
+
+{
+    box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    letter-spacing: 0.5px;
+
+}
+
+.header {
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    color: navy;
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+}
+
+body {
+    background-color: rgb(188, 223, 245);
+}
+
+/*My table has a navy blue box shadow because I thought it would look cool. */
+table {
+    background-color: white;
+    border-collapse: collapse;
+    width: 25em;
+    height: 15em;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0px 10px 3px 5px rgb(4, 3, 91);
+    top: 150px;
+    left: 12px;
+    position: relative;
+    line-height: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.biking {
+    position: fixed;
+    height: 150px;
+    width: 200px;
+    top: 100px;
+    left: 10px;
+    border-width: 2px;
+    border-color: navy;
+    border-style: solid;
+}
+
+.beach {
+    position: fixed;
+    height: 150px;
+    width: 200px;
+    top: 255px;
+    left: 185px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: navy;
+    border-style: solid;
+}
+
+.bumper {
+    position: fixed;
+    height: 140px;
+    width: 200px;
+    top: 410px;
+    left: 10px;
+    border-width: 2px;
+    border-color: navy;
+    border-style: solid;
+}
+
+.kayak {
+    position: fixed;
+    height: 150px;
+    width: 200px;
+    top: 100px;
+    right: 10px;
+    border-width: 2px;
+    border-color: navy;
+    border-style: solid;
+}
+
+.whale {
+    position: fixed;
+    height: 150px;
+    width: 200px;
+    top: 255px;
+    right: 175px;
+    border-width: 2px;
+    border-color: navy;
+    border-style: solid;
+}
+
+.lighthouse {
+    position: fixed;
+    height: 150px;
+    width: 200px;
+    top: 410px;
+    right: 10px;
+    border-width: 2px;
+    border-color: navy;
+    border-style: solid;
+}
+
+.button {
+    position: fixed;
+    bottom: 1px;
+    left: 10px;
+    border-style: solid;
+    border-color: navy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 30px;
+}
